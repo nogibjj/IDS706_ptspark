@@ -1,0 +1,8 @@
+{
+    "name": "ids706 complex sql",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "postCreateCommand": "make all"
+}
