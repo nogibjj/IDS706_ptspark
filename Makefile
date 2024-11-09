@@ -15,3 +15,9 @@ test:
 
 run:
 	python main.py
+
+deploy:
+	git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+	git config --local user.name "github-actions[bot]"
+	git add -u
+	git commit -m "Auto deploy"
